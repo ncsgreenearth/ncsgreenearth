@@ -15,6 +15,7 @@ seo_title = "Green Earth"
 template = "seo"
 [[slider]]
 image = "/uploads/New CorelDRAW X5 Graphic.jpg"
+slide_title = "Productivity & Production"
 template = "slider"
 
 +++
