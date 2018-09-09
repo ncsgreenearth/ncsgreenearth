@@ -25,5 +25,6 @@ fields:
   template_types:
   - highlight
 pages:
+- content/applications/sewage-treatment.md
 - content/applications/industrial-effluent-treatment.md
 - content/about/company.md
