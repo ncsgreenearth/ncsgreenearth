@@ -18,5 +18,10 @@ image = "/uploads/New CorelDRAW X5 Graphic.jpg"
 slide_description = "High Growth Achieved."
 slide_title = "Productivity & Production"
 template = "slider"
+[[slider]]
+image = "/uploads/Industrial pollution.jpg"
+slide_description = "Industrial Effluent Treatment through Bio-Technology."
+slide_title = "Effluent Treatment"
+template = "slider"
 
 +++
