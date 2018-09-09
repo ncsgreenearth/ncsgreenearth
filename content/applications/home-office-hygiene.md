@@ -5,7 +5,7 @@ title = "Home & Office Hygiene"
 [[cards]]
 card_title = "T&B Manager"
 description = "Toilet & Bathroom Manager "
-image = "/uploads/mask-2134083_640.jpg"
+image = "/uploads/23-1.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
