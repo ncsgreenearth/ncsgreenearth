@@ -13,6 +13,12 @@ description = "Replace damaging Agro-chemicals with safer products using Bio-Tec
 image = "/uploads/New CorelDRAW X5 Graphic.jpg"
 link_button_title = "Read More"
 template = "card"
+[[cards]]
+card_title = "Home & Office Cleaning Management "
+description = "100% Safe & Super Effective Cleaning Solution. Bye Bye Toxic Chemicals. "
+image = "/uploads/23-1.jpg"
+link_button_title = "Read More"
+template = "card"
 [[seo]]
 seo_description = "Leaders in applying great solutions around Bio Technology for Agriculture, ETP, STP, Home Cleaning etc."
 seo_keywords = "Organic, Crop Care, Pesticide, Bio-Pesticide, Bio-Fertilizer, Fertilizer, Organic Pesticide, Insecticide, Organic Cleaning, Solid Waste Management, STP, ETP, Sewage Treatment, Effluent Treatment, Restaurant Cleaning, Dentist Chair Cleaning"
