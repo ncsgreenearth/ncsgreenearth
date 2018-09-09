@@ -25,6 +25,7 @@ fields:
   template_types:
   - highlight
 pages:
+- content/applications/home-office-hygiene.md
 - content/applications/sewage-treatment.md
 - content/applications/industrial-effluent-treatment.md
 - content/about/company.md
