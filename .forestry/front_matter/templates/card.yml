@@ -2,6 +2,7 @@
 label: card
 hide_body: false
 is_partial: true
+display_field: card_title
 fields:
 - type: file
   name: image
