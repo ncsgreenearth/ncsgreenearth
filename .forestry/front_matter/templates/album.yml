@@ -15,5 +15,3 @@ fields:
   name: images
   label: images
   description: Images in the album. Preferably all of the same size.
-pages:
-- content/gallery/shiny-album.md
