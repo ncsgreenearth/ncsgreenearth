@@ -39,3 +39,5 @@ fields:
   label: Highlights
   template_types:
   - highlight
+pages:
+- content/products/home-office-hygiene.md
