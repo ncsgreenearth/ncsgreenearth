@@ -1,0 +1,51 @@
+---
+label: homepage
+hide_body: true
+is_partial: false
+fields:
+- type: blocks
+  name: seo
+  label: SEO
+  config:
+    min: '1'
+    max: '1'
+  template_types:
+  - seo
+- type: blocks
+  name: slider
+  label: Slider
+  template_types:
+  - slider
+- type: text
+  name: section_title
+  label: Section Title
+- type: textarea
+  name: section_description
+  label: Section Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: section_link_name
+  label: Section Link Name
+- type: text
+  name: section_link
+  label: Section Link
+- type: blocks
+  name: cards
+  label: Cards
+  template_types:
+  - card
+- type: blocks
+  name: zig_zag
+  label: Zig Zag
+  template_types:
+  - zig-zag
+- type: blocks
+  name: highlights
+  label: Highlights
+  template_types:
+  - highlight
+pages:
+- content/_index.md
