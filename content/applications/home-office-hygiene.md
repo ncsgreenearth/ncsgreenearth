@@ -11,7 +11,7 @@ template = "card"
 [[cards]]
 card_title = "Drain Manager"
 description = "Drain Manager will DeClog your "
-image = "/uploads/meadow-3375052_1280.jpg"
+image = "/uploads/Hotel & Restaurant-1.jpg"
 link_button_title = "Read More"
 template = "card"
 [[highlights]]
