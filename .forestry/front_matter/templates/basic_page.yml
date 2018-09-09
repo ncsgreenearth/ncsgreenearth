@@ -25,6 +25,7 @@ fields:
   template_types:
   - highlight
 pages:
+- content/applications/sugar-industry-solution.md
 - content/applications/bio-gas-management.md
 - content/applications/solid-waste-management.md
 - content/applications/hotel-restaurant-eateries-cleanliness.md
