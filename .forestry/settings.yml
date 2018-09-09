@@ -1,59 +1,9 @@
 ---
 new_page_extension: md
-<<<<<<< HEAD
-auto_deploy: true
-=======
 auto_deploy: false
->>>>>>> 89c209d784e3eaa59dee77642f564958fdade6f7
 admin_path: 
 webhook_url: 
-sections:
-- type: directory
-<<<<<<< HEAD
-  path: content/blog
-  label: Blog
-  create: all
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-=======
->>>>>>> 89c209d784e3eaa59dee77642f564958fdade6f7
-  path: content/products
-  label: Products
-  create: all
-  match: "**/*"
-<<<<<<< HEAD
-  templates:
-  - product
-=======
->>>>>>> 89c209d784e3eaa59dee77642f564958fdade6f7
-- type: directory
-  path: content/about
-  label: About
-  create: all
-  match: "**/*"
-<<<<<<< HEAD
-  templates:
-  - basic_page
-  - team
-=======
->>>>>>> 89c209d784e3eaa59dee77642f564958fdade6f7
-- type: directory
-  path: content/gallery
-  label: Gallery
-  create: all
-  match: "**/*"
-<<<<<<< HEAD
-  templates:
-  - album
-=======
->>>>>>> 89c209d784e3eaa59dee77642f564958fdade6f7
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
+sections: 
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
