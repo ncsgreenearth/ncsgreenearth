@@ -25,6 +25,7 @@ fields:
   template_types:
   - highlight
 pages:
+- content/applications/hotel-restaurant-eateries-cleanliness.md
 - content/applications/dentist-clinic-hygiene.md
 - content/applications/home-office-hygiene.md
 - content/applications/sewage-treatment.md
