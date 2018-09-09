@@ -23,6 +23,4 @@ seo_title = "Home & Office Hygiene | NCSGreenearth"
 template = "seo"
 
 +++
-Details about Drain Manager.
-
-It works Pretty Well. 
+T&B Manager works beautifully.
