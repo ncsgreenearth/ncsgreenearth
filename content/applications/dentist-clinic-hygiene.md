@@ -10,9 +10,15 @@ image = "/uploads/best-dentist-bangalore-694654_640.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
+card_title = "Dental Care & Hyegiene"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eum."
+image = "/uploads/teeth-1652976_640.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
+card_title = "Strong Teeth & Gums"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eum."
+image = "/uploads/teeth-1560353_640.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
