@@ -6,6 +6,7 @@ title = "Dentist Clinic Hygiene"
 [[cards]]
 card_title = "Dentist 1"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eum."
+image = "/uploads/best-dentist-bangalore-694654_640.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
