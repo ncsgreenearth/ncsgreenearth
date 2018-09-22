@@ -1,7 +1,6 @@
 +++
 card_section_title = ""
 date = "2018-09-09T08:07:28+00:00"
-highlights = []
 title = "Dentist Clinic Hygiene"
 [[cards]]
 card_title = "Dentist 1"
@@ -27,6 +26,11 @@ description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima,
 image = "/uploads/zahnreinigung-1514693_640.jpg"
 link_button_title = "Read More"
 template = "card"
+[[highlights]]
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quidem rerum consectetur vitae, velit suscipit vel, voluptatibus facilis tempore harum.\n\n* Lorem ipsum dolor sit.\n* Lorem ipsum dolor sit amet, consectetur.\n* Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+template = "highlight"
+text_color = "#FFFFFF"
+title = "Advantages of our product"
 [[seo]]
 cover_image = "/uploads/zahnreinigung-1514693_1280.jpg"
 template = "seo"
