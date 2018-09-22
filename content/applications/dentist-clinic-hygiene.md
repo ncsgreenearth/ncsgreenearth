@@ -22,6 +22,9 @@ image = "/uploads/teeth-1560353_640.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
+card_title = "Dental Waste Management"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eum."
+image = "/uploads/zahnreinigung-1514693_640.jpg"
 link_button_title = "Read More"
 template = "card"
 [[seo]]
