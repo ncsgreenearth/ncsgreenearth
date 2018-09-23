@@ -31,5 +31,12 @@ fields:
   name: other_addresses
   template_types:
   - address
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  config:
+    required: true
+  default: contact
 pages:
 - content/contact.md
