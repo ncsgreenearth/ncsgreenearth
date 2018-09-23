@@ -1,7 +1,7 @@
 ---
-main_logo: ''
+main_logo: '/uploads/sm_logo_large.png'
 favicon: ''
-footer_logo: ''
+footer_logo: '/uploads/sm_logo_large.png'
 primary_color: ''
 secondary_color: ''
 header_background_color: '#ffffff'
