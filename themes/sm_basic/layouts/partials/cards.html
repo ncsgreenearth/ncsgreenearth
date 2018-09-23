@@ -1,0 +1,37 @@
+{{ if .Params.cards}}
+<section class="section has-background-white-bis">
+  <div class="container">
+    {{with .Params.card_section_title}}
+    <p class="is-size-2 has-text-weight-bold has-text-centered" style="margin-bottom:1em;">{{.}}</p>
+    {{end}}
+    <div class="columns is-multiline">
+      {{ range .Params.cards }}
+        <div class="column is-one-third">
+          <div class="card">
+            {{with .image}}
+              <div class="card-image">
+                <div class="sixteen-nine">
+                  <div class="content" style="background-image: url({{ . | absURL}});"></div>
+                </div>
+              </div>
+            {{end}}
+            <div class="card-content">
+              {{with .card_title}}
+                <p class="is-size-5 has-text-weight-bold">{{.}}</p>
+              {{end}}
+              {{with .description}}
+                <div style="margin-bottom: 1em;">{{.}}</div>
+              {{end}}
+              {{ if .link }}
+                <div>
+                  <a href="{{.link}}" class="button is-success is-outlined">{{.link_button_title}}</a>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{end}}

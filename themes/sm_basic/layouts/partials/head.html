@@ -1,0 +1,24 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  {{ if .Params.seo }}
+    {{ if (index .Params.seo 0).seo_title }}
+      <title>{{ (index .Params.seo 0).seo_title }}</title>
+    {{ else }}
+      <title>{{ .Title }}</title>
+    {{ end }}
+  {{ else }}
+    <title>{{ .Title }}</title>
+  {{ end }}
+  {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+  {{ else }}
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  {{ end }}
+  <link href='{{ "css/app.css" | absURL }}' rel='stylesheet' type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+</head>

@@ -4,6 +4,6 @@ favicon: ''
 footer_logo: ''
 primary_color: ''
 secondary_color: ''
-header_background_color: ''
-footer_background_color: ''
-body_text_color: "#5A5A5A"
+header_background_color: '#ffffff'
+footer_background_color: '#'
+body_text_color: "#4A4A4A"

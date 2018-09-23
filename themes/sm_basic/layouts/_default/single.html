@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body style="color: {{.Site.Data.meta.body_text_color}}">
+        {{- partial "header.html" . -}}
+        <section class="section">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-two-thirds">
+                <div class="content">
+                  {{- partial "page_image.html" . -}}
+                  {{ .Content }}
+                </div>
+              </div>
+              <div class="column is-one-third">
+                  {{- partial "side_menu.html" . -}}
+              </div>
+            </div>
+          </div>
+        </section>
+        {{- partial "cards.html" . -}}
+        {{- partial "highlights.html" . -}}
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

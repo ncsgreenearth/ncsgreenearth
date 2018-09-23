@@ -1,0 +1,22 @@
+{{ $currentPageUrl := .URL }}
+{{ $parentTitle := .Parent.Title }}
+{{ $currentSection := (where .Site.Pages "Section" .Section) }}
+{{ $i := sub ($currentSection | len) 1 }}
+{{ if ge $i 1 }}
+  <section class="section" style="padding-top: 0;">
+    <aside class="menu">
+      {{ if ge (.Data.Pages | len) 1 }}
+        <p class="menu-label has-text-weight-bold has-text-success">{{ .Title }}</p>
+      {{ else }}
+        <p class="menu-label has-text-weight-bold has-text-success">{{ .Parent.Title }}</p>    
+      {{ end }}
+      <ul class="menu-list">
+        {{ range $currentSection.ByTitle }}
+          {{ if ne .Title $parentTitle }}
+          <li><a href="{{.URL}}">{{.Title}}</a></li>
+          {{end}}
+        {{end}}
+      </ul>
+    </aside>
+  </section>
+{{end}}

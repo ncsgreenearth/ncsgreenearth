@@ -1,0 +1,15 @@
+{{ range .Params.highlights }}
+<section class="section has-background-primary" style="color: {{.text_color}}">
+  <div class="container">
+    {{with .title}}
+    <p class="is-size-2 has-text-weight-bold" style="margin-bottom:1em;">{{.}}</p>
+    {{end}}
+    {{with .description}}
+    <div class="content">{{.}}</div>
+    {{end}}
+    {{if .link}}
+      <a href="{{.link}}" class="button is-white is-outlined">{{.link_name}}</a>
+    {{end}}
+  </div>
+</section>
+{{end}}
