@@ -3,3 +3,28 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "sm_basic"
 pluralizelisttitles = false
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "/about/company/"
+weight = 2
+[[menu.main]]
+name = "Applications"
+url = "/applications/bio-gas-management/"
+weight = 3
+[[menu.main]]
+name = "Gallery"
+url = "/gallery/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 6

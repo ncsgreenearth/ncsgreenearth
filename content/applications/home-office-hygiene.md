@@ -1,5 +1,5 @@
 +++
-card_section_title = ""
+card_section_title = "Uses"
 date = "2018-09-09T08:05:11+00:00"
 title = "Home & Office Hygiene"
 [[cards]]
@@ -14,9 +14,6 @@ description = "Drain Manager will DeClog your "
 image = "/uploads/Hotel & Restaurant-1.jpg"
 link_button_title = "Read More"
 template = "card"
-[[highlights]]
-template = "highlight"
-text_color = "#FFFFFF"
 [[seo]]
 cover_image = "/uploads/cleanliness-2799475_1280.jpg"
 seo_description = "Home & Office Hygiene and Cleaning Management solution"

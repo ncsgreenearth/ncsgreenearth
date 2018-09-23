@@ -1,0 +1,32 @@
+<script type="text/javascript" src='{{ "js/app.js" | absURL}}'></script>
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body style="color: {{.Site.Data.meta.body_text_color}}">
+        {{- partial "header.html" . -}}
+        <section class="section">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-two-thirds">
+                <div class="columns is-multiline gallery">
+                  {{range .Params.images}}
+                    <div class="column is-one-third">
+                      <a href="{{ (trim . "/") | absURL }}" class="block mb2 border border-silver p1">
+                        <div class="square"><div class="content" style="background-image:url('{{ (trim . "/") | absURL }}')"></div></div>
+                      </a>
+                    </div>
+                  {{end}}
+                </div>
+              </div>
+              <div class="column is-one-third">
+                  {{- partial "side_menu.html" . -}}
+              </div>
+            </div>
+          </div>
+        </section>
+        <script>
+          baguetteBox.run('.gallery');
+        </script>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
