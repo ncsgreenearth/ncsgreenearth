@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: Data
+  create: all
+  match: "**/*"
+- type: directory
   path: content/applications
   label: Applications
   create: all
