@@ -25,11 +25,11 @@ fields:
   template_types:
   - highlight
 pages:
+- content/applications/bio-gas-management.md
+- content/applications/solid-waste-management.md
 - content/applications/dentist-clinic-hygiene.md
 - content/applications/home-office-hygiene.md
 - content/applications/sugar-industry-solution.md
-- content/applications/bio-gas-management.md
-- content/applications/solid-waste-management.md
 - content/applications/hotel-restaurant-eateries-cleanliness.md
 - content/applications/sewage-treatment.md
 - content/applications/industrial-effluent-treatment.md
