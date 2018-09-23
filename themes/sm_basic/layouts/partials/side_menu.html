@@ -3,7 +3,7 @@
 {{ $currentSection := (where .Site.Pages "Section" .Section) }}
 {{ $i := sub ($currentSection | len) 1 }}
 {{ if ge $i 1 }}
-  <section class="section" style="padding-top: 0;">
+  <section class="section has-background-white-bis">
     <aside class="menu">
       {{ if ge (.Data.Pages | len) 1 }}
         <p class="menu-label has-text-weight-bold has-text-success">{{ .Title }}</p>
@@ -13,7 +13,11 @@
       <ul class="menu-list">
         {{ range $currentSection.ByTitle }}
           {{ if ne .Title $parentTitle }}
-          <li><a href="{{.URL}}">{{.Title}}</a></li>
+            {{if eq .URL $currentPageUrl }}
+              <li><a class="is-active" href="{{.URL}}">{{.Title}}</a></li>
+            {{else}}
+              <li><a href="{{.URL}}">{{.Title}}</a></li>
+            {{end}}
           {{end}}
         {{end}}
       </ul>
