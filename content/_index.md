@@ -1,4 +1,5 @@
 +++
+card_section_title = "Applications"
 date = "2018-09-09T08:57:42+05:30"
 section_description = "At **Green Earth**, we see the word shifting towards **Green Chemistry** driven by **Microbes – the most plausible way** to crawl out of the toxic chemical mess we have created. We apply Bio-Technology and Green Chemistry for **Agriculture** \\[Soil, Roots, Nutrition, Pest & Diseases\\], **Industrial Waste Treatment** \\[Effluent Treatment, Sewage Treatment etc\\], **Bio-Remediation** \\[Land remediation, Solid Waste Management etc.\\] & **Home & Industrial Cleaning**.\n\nWe challenge our-self to create **products** which remains **simple to use**, offer **excellent price-performance** ratio and still remain **Eco-friendly**. We create products which performs in real environment beyond the confines of ideal lab environment. This runs across all the products and practices followed by us."
 section_link = ""
