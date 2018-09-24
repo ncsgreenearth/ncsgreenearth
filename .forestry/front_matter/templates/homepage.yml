@@ -32,6 +32,9 @@ fields:
 - type: text
   name: section_link
   label: Section Link
+- type: text
+  name: card_section_title
+  label: Card Section Title
 - type: blocks
   name: cards
   label: Cards
