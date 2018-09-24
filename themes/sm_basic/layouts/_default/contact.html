@@ -3,11 +3,64 @@
     {{- partial "head.html" . -}}
     <body style="color: {{.Site.Data.meta.body_text_color}}">
         {{- partial "header.html" . -}}
-        <section class="section">
-          <div class="container">
-            Contact
+        <div class="columns">
+          <div class="column is-half">
+            <section class="section">
+              <div class="container">
+                
+              </div>
+            </section>
           </div>
-        </section>
+          <div class="column is-half">
+            <div id="map-canvas" style="min-height: 300px;height:100%"></div>
+          </div>
+        </div>
         {{- partial "footer.html" . -}}
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOp_b26dWumYiB9Pc3EwrC-FEPP2CkgGk" data-turbolinks-eval="true"></script>
+      <script>
+      function initialize() {
+        var gmc = {{.Params.google_map_coordinates}}
+        console.log(gmc)
+        var myLatlng = new google.maps.LatLng(gmc.split(",")[0], gmc.split(",")[1]);
+        var mapOptions = {
+          center: myLatlng,
+          zoom: 14,
+          scrollwheel: false,
+          styles: [{
+            featureType: 'all',
+            stylers: [{
+              hue: '#3d9970'
+            },
+                      {
+                        saturation: 70
+                      }
+            ]
+          }, {
+            featureType: 'road.arterial',
+            elementType: 'geometry',
+            stylers: [{
+              hue: '#0d2d62'
+            },
+                      {
+                        saturation: 90
+                      }
+            ]
+          }, {
+            featureType: 'poi.business',
+            elementType: 'labels',
+            stylers: [{
+              visibility: 'off'
+            }]
+          }]
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+                                      mapOptions);
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+      </script>
     </body>
 </html>

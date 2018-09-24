@@ -1,6 +1,6 @@
 {{ if .Params.seo }}
   {{ if (index .Params.seo 0).cover_image }}
-    <div style="margin-bottom: 1em;" class="sixteen-nine">
+    <div class="sixteen-nine mb-8">
       <div class="content" style="background-image: url({{ (index .Params.seo 0).cover_image | absURL }})"></div>
     </div>
   {{ end }}

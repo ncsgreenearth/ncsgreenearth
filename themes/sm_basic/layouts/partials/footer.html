@@ -1,11 +1,13 @@
-<footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-    </p>
-    <p class="has-text-centered">
+<footer class="bg-grey-lighter pt-8">
+  <div class="container mx-auto pb-8">
+    <div class="flex flex-wrap items-center">
+      <div>
+        <img src="{{.Site.Data.meta.main_logo | absURL}}" alt="{{.Site.Title}}">
+      </div>
+    </div>
+  </div>
+  <div class="py-2 bg-white">
+    <p class="text-center text-sm">
       Powered by <a href="http://slicedmango.com">Sliced Mango</a>
     </p>
   </div>

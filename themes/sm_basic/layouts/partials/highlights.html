@@ -1,14 +1,14 @@
 {{ range .Params.highlights }}
-<section class="section has-background-primary" style="color: {{.text_color}}">
-  <div class="container">
+<section class="py-12 bg-teal" style="color: {{.text_color}}">
+  <div class="container mx-auto">
     {{with .title}}
-    <p class="is-size-2 has-text-weight-bold" style="margin-bottom:1em;">{{.}}</p>
+    <p class="text-3xl font-bold mb-8">{{.}}</p>
     {{end}}
     {{with .description}}
-    <div class="content">{{.}}</div>
+    <div class="content mb-8">{{.}}</div>
     {{end}}
     {{if .link}}
-      <a href="{{.link}}" class="button is-white is-outlined">{{.link_name}}</a>
+      <a href="{{.link}}" class="text-sm no-underline border-2 border-white text-white hover:bg-white hover:text-green rounded-sm px-3 py-2 mb-4 inline-block">{{.link_name}}</a>
     {{end}}
   </div>
 </section>
