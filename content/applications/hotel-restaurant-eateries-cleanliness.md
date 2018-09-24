@@ -11,7 +11,7 @@ template = "card"
 link_button_title = "Read More"
 template = "card"
 [[seo]]
-cover_image = "/uploads/Hotel, Restaurant & Eateries Cleanliness.jpg"
+cover_image = "/uploads/New CorelDRAW X5 Graphic-2.jpg"
 seo_description = "“Eateries are adopting our solution for freedom from Foul Smell, Clogged Drains”"
 seo_title = "Hotel, Restaurant & Eateries Cleanliness "
 template = "seo"
