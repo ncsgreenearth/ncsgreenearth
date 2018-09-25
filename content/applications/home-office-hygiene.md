@@ -4,9 +4,15 @@ date = "2018-09-09T08:05:11+00:00"
 highlights = []
 title = "Home & Office Hygiene"
 [[cards]]
-card_title = "Toilet & Bathroom manager "
-description = "Stain-free, Disinfected & Fragrant"
-image = "/uploads/Dsolve _ web leaflet_ T & B.jpg"
+card_title = "Toile & Bathroom Manager "
+description = "Keeps the washroom Stain-free, Disinfected & Fragrant. Creates Bio-Film for continuous protection from germs & odour. Works great for toilet-pot, toilet seat, wash basin, sink, tiles & washroom floor."
+image = "/uploads/Backup_of_Dsolve _ web leaflet_16.jpg"
+link_button_title = "Read More"
+template = "card"
+[[cards]]
+card_title = "Drain Manager "
+description = "Removes clogs, pathogen & odour from drains.  Digests food, hairs & other waste in drain. Creates Bio-Film that aids in continuous cleansing."
+image = "/uploads/Dsolve _ web leaflet_Drain Manager.jpg"
 link_button_title = "Read More"
 template = "card"
 [[seo]]
