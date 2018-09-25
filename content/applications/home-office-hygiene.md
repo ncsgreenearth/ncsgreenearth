@@ -15,6 +15,18 @@ description = "Removes clogs, pathogen & odour from drains.  Digests food, hairs
 image = "/uploads/Dsolve _ web leaflet_Drain Manager.jpg"
 link_button_title = "Read More"
 template = "card"
+[[cards]]
+card_title = "Septic Tank Manager "
+description = "Experience Unclogged, Odour Free & Germ free sewage line. It digests waste into water & harmless gas. Kills Germs & Bad Odour causing bacteria. "
+image = "/uploads/Dsolve _ web leaflet_Septic Manager.jpg"
+link_button_title = "Read More"
+template = "card"
+[[cards]]
+card_title = "Aquarium Manager "
+description = "Aids in Aquarium Management without the need to change water. D'Solve keeps cleaning the Fish Waste to keep the water Healthy,  Clean, Transparent & Odour Free. Creates a stress-free condition for fishes to keep them Healthy & Happy. Just recharge lost water as and when required."
+image = "/uploads/Dsolve _ web leaflet_Aquarium Manager.jpg"
+link_button_title = "Read More"
+template = "card"
 [[seo]]
 cover_image = "/uploads/cleanliness-2799475_1280.jpg"
 seo_description = "Home & Office Hygiene and Cleaning Management solution"
