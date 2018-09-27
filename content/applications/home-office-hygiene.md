@@ -27,6 +27,12 @@ description = "Unclogged, Odour Free & Germ free sewage line"
 image = "/uploads/Septic Tank Manger.jpg"
 link_button_title = "Read More"
 template = "card"
+[[cards]]
+card_title = "Multi Surface Manager "
+description = "Floor Clean, Disinfected and free from bad odor"
+image = "/uploads/Multi surface Manager.jpg"
+link_button_title = "Read More"
+template = "card"
 [[seo]]
 cover_image = "/uploads/cleanliness-2799475_1280.jpg"
 seo_description = "Home & Office Hygiene and Cleaning Management solution"
