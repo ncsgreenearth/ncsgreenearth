@@ -11,7 +11,7 @@ link_button_title = "Read More"
 template = "card"
 [[cards]]
 card_title = "Aquarium Manager "
-description = "Aids in Aquarium Management without the need to change water. D'Solve keeps cleaning the Fish Waste to keep the water Healthy,  Clean, Transparent & Odour Free. Creates a stress-free condition for fishes to keep them Healthy & Happy. Just recharge lost water as and when required."
+description = "Transparent & Odour Free. Creates a stress-free condition for fishes to keep them Healthy & Happy. "
 image = "/uploads/Aquarium.jpg"
 link_button_title = "Read More"
 template = "card"
@@ -22,6 +22,9 @@ image = "/uploads/T & B.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
+card_title = "Septic Tank Manager "
+description = "Unclogged, Odour Free & Germ free sewage line"
+image = "/uploads/Septic Tank Manger.jpg"
 link_button_title = "Read More"
 template = "card"
 [[seo]]
