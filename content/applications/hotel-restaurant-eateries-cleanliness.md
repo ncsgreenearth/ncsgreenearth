@@ -10,6 +10,9 @@ image = "/uploads/T & B.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
+card_title = "Drain Manager "
+description = "Removes clogs, pathogen & odor from drains.  Digests food, hairs & other waste in drain. Creates Bio-Film that aids in continuous cleansing."
+image = "/uploads/Drainage manager.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
