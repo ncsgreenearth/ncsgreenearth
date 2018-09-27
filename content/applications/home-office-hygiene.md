@@ -16,6 +16,9 @@ image = "/uploads/Aquarium.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
+card_title = "Toilet & Bathroom Manager "
+description = "Stain-free, Disinfected & Fragrant. Creates Bio-Film for continuous protection"
+image = "/uploads/T & B.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
