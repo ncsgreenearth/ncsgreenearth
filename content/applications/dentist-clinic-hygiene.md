@@ -3,27 +3,9 @@ card_section_title = "Services"
 date = "2018-09-09T08:07:28+00:00"
 title = "Dentist Clinic Hygiene"
 [[cards]]
-card_title = "Dentist 1"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eum."
-image = "/uploads/best-dentist-bangalore-694654_640.jpg"
-link_button_title = "Read More"
-template = "card"
-[[cards]]
-card_title = "Dental Care & Hyegiene"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eum."
-image = "/uploads/teeth-1652976_640.jpg"
-link_button_title = "Read More"
-template = "card"
-[[cards]]
-card_title = "Strong Teeth & Gums"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eum."
-image = "/uploads/teeth-1560353_640.jpg"
-link_button_title = "Read More"
-template = "card"
-[[cards]]
-card_title = "Dental Waste Management"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eum."
-image = "/uploads/zahnreinigung-1514693_640.jpg"
+card_title = "Dental Drain Manager "
+description = "Digests the waste created in Dental Chair Drain. Keeps it Disinfected & Odour Free"
+image = "/uploads/Dental Drain.jpg"
 link_button_title = "Read More"
 template = "card"
 [[highlights]]
@@ -38,4 +20,4 @@ cover_image = "/uploads/zahnreinigung-1514693_1280.jpg"
 template = "seo"
 
 +++
-Dentist Chair wash basin handles a unique challenge. Accumulation of such waste leads to accumulation of waste in the pipeline along with harmful pathogens and disease causing organisms. Most dentists have reported that use of D’Solve has helped them manage absolutely clean drain and odour free clinic. 
+Dentist Chair wash basin handles a unique challenge. Accumulation of such waste leads to accumulation of waste in the pipeline along with harmful pathogens and disease causing organisms. Most dentists have reported that use of D’Solve has helped them manage absolutely clean drain and odour free clinic.
