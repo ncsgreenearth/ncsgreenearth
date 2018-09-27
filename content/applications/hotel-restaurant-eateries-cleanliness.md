@@ -16,6 +16,9 @@ image = "/uploads/Drainage manager.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
+card_title = "Grease Traps "
+description = "Digests Fat, Oil & Grease in the Grease trap into simpler form to Prevent Choking in the associated drain line."
+image = "/uploads/Grease Trap.jpg"
 link_button_title = "Read More"
 template = "card"
 [[seo]]
