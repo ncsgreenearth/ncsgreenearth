@@ -1,9 +1,9 @@
 ---
-main_logo: '/uploads/sm_logo_large.png'
-favicon: ''
-footer_logo: '/uploads/sm_logo_large.png'
-primary_color: ''
-secondary_color: ''
-header_background_color: '#ffffff'
-footer_background_color: '#'
+main_logo: "/uploads/sm_logo_large.png"
+favicon: ""
+footer_logo: "/uploads/sm_logo_large.png"
+primary_color: ""
+secondary_color: ""
+header_background_color: "#ffffff"
+footer_background_color: ""
 body_text_color: "#4A4A4A"

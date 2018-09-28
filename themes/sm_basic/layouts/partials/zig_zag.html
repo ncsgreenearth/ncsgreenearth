@@ -1,0 +1,49 @@
+{{ if .Params.zig_zag}}
+<section class="py-12 bg-grey-lightest">
+  <div class="container mx-auto">
+    <div class="flex flex-wrap -mx-4">
+      {{ range $i, $element := .Params.zig_zag }}
+        {{if eq 0 (mod $i 2)}}
+        <div class="w-1/2 px-8 mb-12">
+          <div class="square">
+            <div class="content" style="background-image: url({{ $element.image | absURL}});"></div>
+          </div>
+        </div>
+        <div class="w-1/2 px-8 mb-12 mt-8">
+          {{with $element.title}}
+            <p class="text-2xl font-bold mb-12">{{.}}</p>
+          {{end}}
+          {{with $element.description}}
+            <div class="mb-6">{{.}}</div>
+          {{end}}
+          {{ if $element.link }}
+            <div class="mb-8">
+              <a href="{{$element.link}}" class="text-sm no-underline bg-green text-white hover:bg-green-dark rounded-sm px-2 py-1">{{$element.link_button_title}}</a>
+            </div>
+          {{ end }}
+        </div>
+        {{ else }}
+        <div class="w-1/2 px-8 mb-12 mt-8">
+          {{with $element.title}}
+            <p class="text-2xl font-bold mb-12">{{.}}</p>
+          {{end}}
+          {{with $element.description}}
+            <div class="mb-6">{{.}}</div>
+          {{end}}
+          {{ if $element.link }}
+            <div class="mb-8">
+              <a href="{{$element.link}}" class="text-sm no-underline bg-green text-white hover:bg-green-dark rounded-sm px-2 py-1">{{$element.link_button_title}}</a>
+            </div>
+          {{ end }}
+        </div>
+        <div class="w-1/2 px-8 mb-12">
+          <div class="square">
+            <div class="content" style="background-image: url({{ $element.image | absURL}});"></div>
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{end}}
