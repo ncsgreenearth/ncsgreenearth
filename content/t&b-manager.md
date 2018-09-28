@@ -11,6 +11,7 @@ slider = []
 title = "T&B Manager"
 zig_zag = []
 [[seo]]
+cover_image = "/uploads/T & B.jpg"
 template = "seo"
 
 +++
