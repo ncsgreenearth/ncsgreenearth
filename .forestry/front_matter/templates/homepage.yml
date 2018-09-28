@@ -51,4 +51,5 @@ fields:
   template_types:
   - highlight
 pages:
+- content/t&b-manager.md
 - content/_index.md
