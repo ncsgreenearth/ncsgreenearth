@@ -10,6 +10,8 @@ link_button_title = "Read More"
 template = "card"
 [[cards]]
 card_title = "Test Card 2"
+description = "This is a sample card"
+image = "/uploads/book-3294946_640.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
