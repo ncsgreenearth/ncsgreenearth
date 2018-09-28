@@ -8,6 +8,16 @@ description = "Digests the waste created in Dental Chair Drain. Keeps it Disinfe
 image = "/uploads/Dental Drain.jpg"
 link_button_title = "Read More"
 template = "card"
+[[cards]]
+card_title = "Test Card 2"
+link_button_title = "Read More"
+template = "card"
+[[cards]]
+link_button_title = "Read More"
+template = "card"
+[[cards]]
+link_button_title = "Read More"
+template = "card"
 [[highlights]]
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quidem rerum consectetur vitae, velit suscipit vel, voluptatibus facilis tempore harum.\n\n* Lorem ipsum dolor sit.\n* Lorem ipsum dolor sit amet, consectetur.\n* Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 link = ""
