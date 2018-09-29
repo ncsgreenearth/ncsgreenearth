@@ -28,7 +28,7 @@ template = "highlight"
 text_color = "#FFFFFF"
 title = "Advantages of our product"
 [[seo]]
-cover_image = "/uploads/zahnreinigung-1514693_1280.jpg"
+cover_image = "/uploads/6fbda82d-9ec8-4b1f-ba18-5a4353c04762-lg.jpg"
 template = "seo"
 
 +++
