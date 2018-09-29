@@ -14,7 +14,7 @@ cover_image = "/uploads/T & B.jpg"
 template = "seo"
 [[zig_zag]]
 description = "100% Biogradable and nature friendly. "
-image = "/uploads/6fbda82d-9ec8-4b1f-ba18-5a4353c04762-lg.jpg"
+image = "/uploads/Aquarium.jpg"
 template = "zig-zag"
 title = "100% Safe"
 [[zig_zag]]
