@@ -33,5 +33,8 @@ description = "Takes Care of Toilet, Washbasin and other Bathroom area"
 image = "/uploads/meadow-3375052_1280.jpg"
 template = "zig-zag"
 title = "All in One Product"
+[[zig_zag]]
+image = "/uploads/SILPOT_web.jpg"
+template = "zig-zag"
 
 +++
