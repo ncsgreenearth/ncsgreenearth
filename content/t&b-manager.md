@@ -1,6 +1,5 @@
 +++
 card_section_title = ""
-cards = []
 date = "2018-09-28T09:33:26+00:00"
 highlights = []
 section_description = "Great Products"
@@ -9,6 +8,11 @@ section_link_name = ""
 section_title = "Toilet & Bathroom Manager"
 slider = []
 title = "T&B Manager"
+[[cards]]
+card_title = "Silpot "
+image = "/uploads/SILPOT_web.jpg"
+link_button_title = "Read More"
+template = "card"
 [[seo]]
 cover_image = "/uploads/T & B.jpg"
 template = "seo"
