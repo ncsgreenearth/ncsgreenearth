@@ -9,8 +9,10 @@ section_title = "Toilet & Bathroom Manager"
 slider = []
 title = "T&B Manager"
 [[cards]]
-card_title = "Silpot "
 image = "/uploads/SILPOT_web.jpg"
+link_button_title = "Read More"
+template = "card"
+[[cards]]
 link_button_title = "Read More"
 template = "card"
 [[seo]]
