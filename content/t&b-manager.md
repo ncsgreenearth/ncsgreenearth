@@ -8,18 +8,14 @@ section_title = "Toilet & Bathroom Manager"
 slider = []
 title = "T&B Manager"
 [[cards]]
-card_title = "Component"
-image = "/uploads/T & B 1.jpg"
+card_title = "CONTENT "
+image = "/uploads/content.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
-card_title = "Recommendation "
-image = "/uploads/T & B 2.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
-card_title = "How to use "
-image = "/uploads/T & B 3.jpg"
 link_button_title = "Read More"
 template = "card"
 [[highlights]]
