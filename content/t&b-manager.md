@@ -2,7 +2,7 @@
 card_section_title = ""
 date = "2018-09-28T09:33:26+00:00"
 highlights = []
-section_description = "Great Products"
+section_description = "Great Products made for cleaning Toilet and Bathroom without spoiling the environment."
 section_link = ""
 section_link_name = ""
 section_title = "Toilet & Bathroom Manager"
