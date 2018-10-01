@@ -16,6 +16,10 @@ template = "card"
 image = "/uploads/Dental Drain.jpg"
 link_button_title = "Read More"
 template = "card"
+[[cards]]
+image = "/uploads/Septic Tank Manger.jpg"
+link_button_title = "Read More"
+template = "card"
 [[seo]]
 cover_image = "/uploads/T & B.jpg"
 template = "seo"
