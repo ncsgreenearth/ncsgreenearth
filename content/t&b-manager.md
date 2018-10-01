@@ -17,6 +17,11 @@ card_title = "Recommendation "
 image = "/uploads/T & B 2.jpg"
 link_button_title = "Read More"
 template = "card"
+[[cards]]
+card_title = "How to use "
+image = "/uploads/T & B 3.jpg"
+link_button_title = "Read More"
+template = "card"
 [[highlights]]
 description = "* Biodegradable\n* Great Performance\n* Easy to Use"
 template = "highlight"
