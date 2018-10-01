@@ -12,6 +12,11 @@ card_title = "Component"
 image = "/uploads/T & B 1.jpg"
 link_button_title = "Read More"
 template = "card"
+[[cards]]
+card_title = "Recommendation "
+image = "/uploads/T & B 2.jpg"
+link_button_title = "Read More"
+template = "card"
 [[highlights]]
 description = "* Biodegradable\n* Great Performance\n* Easy to Use"
 template = "highlight"
