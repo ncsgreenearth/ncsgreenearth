@@ -18,6 +18,8 @@ image = "/uploads/Recommendation.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
+card_title = "HOW TO USE "
+image = "/uploads/How to use.jpg"
 link_button_title = "Read More"
 template = "card"
 [[highlights]]
