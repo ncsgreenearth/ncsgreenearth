@@ -13,6 +13,7 @@ image = "/uploads/SILPOT_web.jpg"
 link_button_title = "Read More"
 template = "card"
 [[cards]]
+image = "/uploads/Dental Drain.jpg"
 link_button_title = "Read More"
 template = "card"
 [[seo]]
