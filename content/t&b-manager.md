@@ -40,5 +40,9 @@ description = "**Effect of SilPot on disease intensity in paddy**"
 image = "/uploads/Chart 2.jpg"
 template = "zig-zag"
 title = "Effect of SilPot on disease intensity in paddy"
+[[zig_zag]]
+image = "/uploads/5.jpg"
+template = "zig-zag"
+title = "Sugarcane"
 
 +++
