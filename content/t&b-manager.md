@@ -1,7 +1,6 @@
 +++
 card_section_title = ""
 date = "2018-09-28T09:33:26+00:00"
-highlights = []
 section_description = "Great Products made for cleaning Toilet and Bathroom without spoiling the environment."
 section_link = ""
 section_link_name = ""
@@ -20,6 +19,11 @@ template = "card"
 image = "/uploads/Septic Tank Manger.jpg"
 link_button_title = "Read More"
 template = "card"
+[[highlights]]
+description = "* Biodegradable\n* Great Performance\n* Easy to Use"
+template = "highlight"
+text_color = "#FFFFFF"
+title = "What Makes us Unique?"
 [[seo]]
 cover_image = "/uploads/T & B.jpg"
 template = "seo"
