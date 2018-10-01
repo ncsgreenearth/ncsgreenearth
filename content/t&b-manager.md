@@ -31,8 +31,9 @@ title = "What Makes us Unique?"
 cover_image = "/uploads/T & B.jpg"
 template = "seo"
 [[zig_zag]]
+description = "**Effect of SilPot on growth and yield of Paddy** "
+image = "/uploads/Chart 1.jpg"
 template = "zig-zag"
-[[zig_zag]]
-template = "zig-zag"
+title = "Effect of SilPot on growth and yield of Paddy "
 
 +++
