@@ -33,8 +33,5 @@ template = "seo"
 [[zig_zag]]
 image = "/uploads/graph for web.jpg"
 template = "zig-zag"
-[[zig_zag]]
-image = "/uploads/graph for web-1.jpg"
-template = "zig-zag"
 
 +++
