@@ -7,7 +7,6 @@ section_link_name = ""
 section_title = "Toilet & Bathroom Manager"
 slider = []
 title = "T&B Manager"
-zig_zag = []
 [[cards]]
 card_title = "CONTENT "
 image = "/uploads/content.jpg"
@@ -31,5 +30,11 @@ title = "What Makes us Unique?"
 [[seo]]
 cover_image = "/uploads/T & B.jpg"
 template = "seo"
+[[zig_zag]]
+image = "/uploads/graph for web.jpg"
+template = "zig-zag"
+[[zig_zag]]
+image = "/uploads/graph for web-1.jpg"
+template = "zig-zag"
 
 +++
