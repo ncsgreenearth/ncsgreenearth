@@ -8,7 +8,7 @@ section_title = "Toilet & Bathroom Manager"
 slider = []
 title = "T&B Manager"
 [[cards]]
-card_title = "CONTENT "
+card_title = "                                                          CONTENT "
 image = "/uploads/content.jpg"
 link_button_title = "Read More"
 template = "card"
