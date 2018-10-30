@@ -25,6 +25,7 @@ fields:
   template_types:
   - highlight
 pages:
+- content/aquarium-manager-1.md
 - content/applications/dentist-clinic-hygiene.md
 - content/applications/home-office-hygiene.md
 - content/about/company.md
