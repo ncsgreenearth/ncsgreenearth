@@ -40,4 +40,5 @@ fields:
   template_types:
   - highlight
 pages:
+- content/aquarium-manager.md
 - content/products/home-office-hygiene.md
